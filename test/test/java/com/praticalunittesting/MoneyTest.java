@@ -29,6 +29,4 @@ public class MoneyTest {
         Assert.assertEquals("EUR", m.getCurrency());
     }
     
-    
-    
 }

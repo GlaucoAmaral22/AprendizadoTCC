@@ -6,9 +6,12 @@
 package test.java.com.praticalunittesting;
 
 import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import org.junit.runner.RunWith;
+import src.main.com.praticalunittesting.Money;
 
 /**
  *
@@ -16,14 +19,20 @@ import org.junit.runner.RunWith;
  */
 @RunWith(JUnitParamsRunner.class)
 public class MoneyParameterizedTest {
-    private static final Object[] getMoney(){
-        return new Object[] {
-            new Object[] {10, "USD"},
-            new Object[] {20, "EUR"}
+    private static final Object[] getMoney() {
+        return new Object[]{
+            new Object[]{10, "USD"},
+            new Object[]{20, "EUR"}
         };
     }
-    
-    
-    
+
+    @Test
+    @Parameters(method = "getMoney")
+    public void constructorShouldSetAmountAndCurrency(int amount, String currency) {
+        Money m = new Money(amount, currency);
+        assertEquals(amount, m.getAmount());
+        assertEquals(currency, m.getCurrency());
+        
+    }
 
 }
