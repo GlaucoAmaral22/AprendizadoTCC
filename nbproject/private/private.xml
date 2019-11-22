@@ -3,7 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/src/com/practicalunittesting/chp03/testfixture/Client.java</file>
+            <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/test/test/java/com/praticalunittesting/MoneyIAETest.java</file>
             <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/test/test/java/com/praticalunittesting/MoneyTest.java</file>
+            <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/test/test/java/com/praticalunittesting/ClientDefaultTest.java</file>
+            <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/test/test/java/com/praticalunittesting/ClientBeforeTest.java</file>
+            <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/test/test/java/com/praticalunittesting/ClientNoSetUpTest.java</file>
             <file>file:/C:/Users/glauc/Documents/NetBeansProjects/UnitTest/test/test/java/com/praticalunittesting/MoneyParameterizedTest.java</file>
         </group>
     </open-files>
